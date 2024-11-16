@@ -1,11 +1,17 @@
 {
-  "name": "erp",
+  "name": "@cloudyware/erp",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
+    "start": "yarn start:dev",
+    "start:dev": "ng serve --host=localhost --port=4200",
+    "build:dev": "ng build --configuration development",
+    "build:prod": "ng build --configuration production",
+    "release": "",
+    "deploy:dev": "",
+    "deploy:test": "",
+    "deploy:staging": "",
+    "deploy:prod": "",
     "test": "ng test"
   },
   "private": true,
